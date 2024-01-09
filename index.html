@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MathQuizApp</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+/>
+<script
+type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/toastify-js"
+defer
+></script>
+<link rel="stylesheet" href="style.css" />
+<script src="./app.js" defer></script>
+</head>
+<body>
+  
+<div class="background">
+  <div class="box">
+    <h2> Score-> <span id = "score">0</span></h2>
+    <h3 id="question">Q.What is 8 multiply by 2</h3>
+    <form id="form" action="" onsubmit="checkans(event)">
+<input id="ans" name="ans" type="text" placeholder="enter your marks">
+<button id="submit" type="submit">Submit</button>
+
+  </form>
+  </div>
+</div>
+
+
+
+  <script src="app.js"></script>
+</body>
+</html>
